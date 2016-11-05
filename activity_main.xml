@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.labros.myMonkey.android.AndroidLauncher"
+    android:id="@+id/root">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:id="@+id/header"
+        android:layout_alignParentStart="true"
+        android:background="#dc31323b"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SCORE : "
+            android:id="@+id/scoreLabel"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:editable="false"
+            android:textColor="#e3d799"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/score"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/scoreLabel"
+            android:layout_toEndOf="@+id/scoreLabel"
+            android:textColor="#e3d799"
+            android:numeric="integer" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gameContent"></RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/startButton"
+        android:layout_below="@+id/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
