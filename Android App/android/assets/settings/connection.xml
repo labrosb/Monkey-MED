@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+    <default>
+        <primary_protocol> Bluetooth </primary_protocol>
+        <bluetooth>
+            <server> B8:27:EB:9F:7F:DA </server>
+        </bluetooth>
+        <MQTT>
+            <broker> test.mosquitto.org </broker>
+            <client_id> qqw </client_id>
+            <authentication_method> </authentication_method>
+            <token> </token>
+            <SSL> false </SSL>
+            <subject> EMG-DataX </subject>
+            <qos> 0 </qos>
+            <TCP_port> 1883 </TCP_port>
+            <SSL_port> 8883 </SSL_port>
+        </MQTT>
+    </default>
+</options>
