@@ -6,4 +6,4 @@
 <br />
 Finally the data are sent to the Android device enabling the patient to move objects in the gaming environment by streching his muscles. </p>
 <p>Year of implementation : 2016</p>
-<p>Project : Individualy implemented</p>
+<p>Project : Individualy implemented</p> 
